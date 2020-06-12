@@ -1,0 +1,31 @@
+.Toolbar {
+  background-color: #515d4e;
+  height: 50px;
+  width: 900px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  
+}
+
+.Toolbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.Toolbar li {
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.Toolbar li:hover {
+background-color:  whitesmoke;
+}

@@ -1,0 +1,22 @@
+.SlideWrapper {
+    position: relative;
+    width:600px;
+    height: 400px;
+
+    box-sizing: border-box;
+    overflow: hidden;
+    
+
+}
+
+.Wrapper{
+   position: absolute;
+   left:-600px;
+   width: 1800px;
+   height: 400px;
+ 
+}
+
+.Img{
+    position: absolute;
+}
